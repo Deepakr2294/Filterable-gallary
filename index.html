@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Filterable Image Gallery Bootstrap | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Images Filter Buttons Section -->
+        <h1>Filterable gallary</h1>
+
+        <div class="row mt-5" id="filter-buttons">
+            <div class="col-12">
+                <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+                <button class="btn mb-2 mx-1" data-filter="nature">Nature</button>
+                <button class="btn mb-2 mx-1" data-filter="cars">Cars</button>
+                <button class="btn mb-2 mx-1" data-filter="people">People</button>
+            </div>
+        </div>
+
+        <!-- Filterable Images / Cards Section -->
+        <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+            <div class="card p-0" data-name="nature">
+                <img src="https://img.freepik.com/free-photo/mesmerizing-scenery-green-mountains-with-cloudy-sky-surface_181624-27189.jpg?t=st=1723531497~exp=1723535097~hmac=3d9abcda3b9e78386e51cf223295436bbc9ea6e22a5d927b083d0f4162512e9c&w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Mountains</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="nature">
+                <img src="https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478040.jpg?t=st=1723531838~exp=1723535438~hmac=7c019c17712db889cdd1624583833ca1f29633273f972e76257b0d94f6337218&w=360" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Lights</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="nature">
+                <img src="https://img.freepik.com/free-photo/view-beautiful-rainbow-nature-landscape_23-2151597605.jpg?t=st=1723531741~exp=1723535341~hmac=91822dc2410e3165080c9180e23181ae7a5ec6ac846fd6eb1dbfdb244cbffbe6&w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Nature</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="cars">
+                <img src="https://img.freepik.com/free-photo/sports-car-driving-asphalt-road-night-generative-ai_188544-8052.jpg?t=st=1723531708~exp=1723535308~hmac=ec472e958730bff88dbf65aba0944751d354d40b58f4aa4be9bed2432d5909bc&w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Retro</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="cars">
+                <img src="https://img.freepik.com/free-photo/view-3d-car_23-2150796894.jpg?t=st=1723531746~exp=1723535346~hmac=2e654f827c146c735f6c95c8b89415fa5583473d6efeaec0d27119a0a9c6599c&w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Fast</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="cars">
+                <img src="https://img.freepik.com/premium-photo/silver-bmw-car-with-word-honda-hood_1249303-981.jpg?w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Classic</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="people">
+                <img src="https://img.freepik.com/free-photo/full-length-portrait-confident-happy-man_171337-4818.jpg?t=st=1723531786~exp=1723535386~hmac=ed5c45773d8216ea574a4ec4d387693a9c6dde8a2ca2b5508f12722173634785&w=360" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Men</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+            <div class="card p-0" data-name="people">
+                <img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?t=st=1723530979~exp=1723534579~hmac=1f0ab7c30459d4b2123307826932d90d4fc15d96f4e50114350d1b838f417d8d&w=740" alt="img">
+                <div class="card-body">
+                    <h6 class="card-title">Girl</h6>
+                    <p class="card-text">Lorem ipsum dolor..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

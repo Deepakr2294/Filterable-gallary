@@ -1,0 +1,64 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f1f1f1 !important;
+}
+
+body .container {
+  max-width: 1100px;
+}
+h1{margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+#filter-buttons button {
+  border-radius: 3px;
+  background: #fff;
+  border-color: transparent;
+}
+
+#filter-buttons button:hover {
+  background: #ddd;
+}
+
+#filter-buttons button.active {
+  color: #fff;
+  background: #6c757d;
+}
+
+#filterable-cards .card {
+  width: 15rem;
+  /* min-width: 200px; */
+  border: 2px solid transparent;
+}
+#filterable-cards .card img {
+  height: 15.625rem;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#filterable-cards .card:hover img {
+  height: 16rem;
+transition: all ease 0.9s;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#filterable-cards .card.hide {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #filterable-cards {
+    justify-content: center;
+  }
+
+  #filterable-cards .card {
+    width: calc(100% / 2 - 10px);
+  }
+}
